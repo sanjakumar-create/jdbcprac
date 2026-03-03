@@ -5,7 +5,7 @@ public class jdbcwrite {
        String url="jdbc:postgresql://localhost:5433/student";
        String user="postgres";
        String pass="Kumar@1234";
-       String sql="insert into info values ('shubham',8,19)";
+       String sql="insert into info values ('sijay',20,25)";
        Connection con=DriverManager.getConnection(url,user,pass);
        System.out.println("connection established");
        Statement st=con.createStatement();
